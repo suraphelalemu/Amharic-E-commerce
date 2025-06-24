@@ -1,0 +1,6 @@
+,f1,precision,recall,accuracy,speed,error
+xlm-roberta-base,0.005586592178770949,0.002976190476190476,0.045454545454545456,0.014619883040935672,2.192,
+bert-base-multilingual-cased,,,,,,[Errno 28] No space left on device
+Davlan/bert-base-multilingual-cased-ner-hrl,,,,,,[Errno 28] No space left on device
+afro-xlmr-base,,,,,,"afro-xlmr-base is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`"
