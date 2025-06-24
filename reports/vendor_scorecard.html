@@ -1,0 +1,76 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Vendor Scorecard</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 2em; }
+                h1 { color: #2c3e50; }
+                table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #3498db; color: white; }
+                tr:nth-child(even) { background-color: #f2f2f2; }
+                .score-high { background-color: #2ecc71 !important; color: white; }
+                .score-medium { background-color: #f39c12 !important; color: white; }
+                .score-low { background-color: #e74c3c !important; color: white; }
+                .chart { margin: 2em 0; }
+            </style>
+        </head>
+        <body>
+            <h1>Vendor Scorecard for Micro-Lending</h1>
+            <p>Generated on 2025-06-24 15:03:17</p>
+            
+            <h2>Summary Statistics</h2>
+            <p>Analyzed 1 vendors with 2 total posts</p>
+            
+            <h2>Scorecard</h2>
+            <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Vendor</th>
+      <th>Avg. Views/Post</th>
+      <th>Posts/Week</th>
+      <th>Avg. Price (ETB)</th>
+      <th>Total Products</th>
+      <th>Lending Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vendor1</td>
+      <td>2000.0</td>
+      <td>3.5</td>
+      <td>400.0</td>
+      <td>2</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <div class="chart">
+                <h3>Lending Score Distribution</h3>
+                <img src="../reports/score_distribution.png" alt="Score Distribution">
+            </div>
+            
+            <h2>Top Performing Vendors</h2>
+            
+            <div style="margin-bottom: 2em;">
+                <h3>1. Vendor1 (Score: 100)</h3>
+                <p>
+                    <strong>Business Profile:</strong> 2 products listed, 
+                    average price 400.0 ETB
+                </p>
+                <p>
+                    <strong>Engagement:</strong> 2000.0 average views/post, 
+                    3.5 posts/week
+                </p>
+                <p>
+                    <strong>Top Post:</strong> 2500 views - 
+                    Products: ሸሚዝ,
+                    Prices: 300.0 ETB
+                </p>
+            </div>
+            
+        </body>
+        </html>
+        

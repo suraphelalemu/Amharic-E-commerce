@@ -13,7 +13,7 @@ Shewabrand
 
 The following Ethiopian-based Telegram e-commerce channels have been selected for data ingestion:
 
-    @ethio_brand_collection
+    
 
 📂 Project Structure
 
